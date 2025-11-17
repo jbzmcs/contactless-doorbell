@@ -1,0 +1,14 @@
+# Build artifacts from the Makefile
+*.o       # Object files
+*.elf     # Executable (ELF) file
+*.hex     # Intel HEX file for flashing
+
+# Common editor and IDE files
+.vscode/
+.settings/
+*.cproject
+*.project
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
