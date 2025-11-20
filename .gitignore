@@ -12,6 +12,7 @@ i2c.o
 lcd.o
 main.elf
 main.hex
+main.o
 sensor.o
 usart.o
 
