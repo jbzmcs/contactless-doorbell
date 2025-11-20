@@ -1,14 +1,28 @@
-# Build artifacts from the Makefile
-*.o       # Object files
-*.elf     # Executable (ELF) file
-*.hex     # Intel HEX file for flashing
+# --- Build Artifacts from the Makefile ---
+*.o        # Object files (e.g., buzzer.o, gpio.o)
+*.elf      # Executable (ELF) file (e.g., main.elf)
+*.hex      # Intel HEX file for flashing (e.g., main.hex)
+*.map      # Linker map files (useful to ignore)
 
-# Common editor and IDE files
+# Ignore specific build files created in the root directory (redundant if *.o is used, but good for clarity)
+# These should be removed from your repository using 'git rm --cached'
+buzzer.o
+gpio.o
+i2c.o
+lcd.o
+main.elf
+main.hex
+sensor.o
+usart.o
+
+# --- Common Editor and IDE Files ---
 .vscode/
 .settings/
 *.cproject
 *.project
+*.user
+*.bak
 
-# Operating System files
+# --- Operating System Files ---
 .DS_Store # macOS
 Thumbs.db # Windows
