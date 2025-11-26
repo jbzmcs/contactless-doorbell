@@ -1,8 +1,12 @@
 DEVICE     = atmega328p
 CLOCK      = 16000000
-PROGRAMMER = -c arduino -b 115200 -P COM3
+PROGRAMMER = -c arduino -b 115200 -P COM13
+# --- UPDATED OBJECTS LIST ---
 OBJECTS    = main.o gpio.o sensor.o i2c.o lcd.o buzzer.o
+# ----------------------------
 FUSES      = -U hfuse:w:0xde:m -U lfuse:w:0xff:m -U efuse:w:0x05:m
+
+# Tune the lines below only if you know what you are doing:
 
 VPATH = src # Keeps looking in 'src' folder (Make sure your .c files are inside src!)
 

@@ -91,27 +91,3 @@ int main(void) {
     return 0;
 }
 
-    /* FOR DEBUGGING LCD: insert in main function */
-    /* 
-    // 1. Initialization (Only I2C and LCD)
-    i2c_init(); 
-    lcd_init(); 
-    
-    // NOTE: Do NOT call sei() here. We are avoiding interrupts for now.
-
-    // 2. Simple Test Output
-    lcd_set_cursor(0, 0);
-    lcd_print("LCD TEST 1.0");
-
-    lcd_set_cursor(1, 0);
-    lcd_print("ADDRESS: 0x27"); // Or 0x27, depending on what you are testing
-
-    // 3. Keep the display running indefinitely
-    while(1) {
-        // Blink the backlight or a character to confirm the loop is running
-        // (You would need a function to turn the backlight on/off for this)
-        _delay_ms(1000); 
-    }
-    
-    return 0; // Should never reach here
-*/
