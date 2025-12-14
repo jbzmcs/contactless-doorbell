@@ -1,8 +1,10 @@
-# --- Build Artifacts from the Makefile ---
-*.o        # Object files (e.g., buzzer.o, gpio.o)
-*.elf      # Executable (ELF) file (e.g., main.elf)
-*.hex      # Intel HEX file for flashing (e.g., main.hex)
-*.map      # Linker map files (useful to ignore)
+# Build artifacts from the Makefile
+# Object files
+*.o      
+# Executable (ELF) file 
+*.elf    
+# Intel HEX file for flashing 
+*.hex     
 
 # Ignore specific build files created in the root directory (redundant if *.o is used, but good for clarity)
 # These should be removed from your repository using 'git rm --cached'
@@ -24,6 +26,8 @@ usart.o
 *.user
 *.bak
 
-# --- Operating System Files ---
-.DS_Store # macOS
-Thumbs.db # Windows
+# Operating System files
+# macOS
+.DS_Store 
+# Windows
+Thumbs.db 

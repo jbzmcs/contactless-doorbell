@@ -1,4 +1,3 @@
-// sensor.c (Updated for Doorbell Project)
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>

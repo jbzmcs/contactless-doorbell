@@ -2,10 +2,10 @@
 #define LCD_H
 #include <stdint.h>
 
-#include <stdint.h>
+
 
 // Standard I2C Address for LCD Backpacks (Try 0x27 or 0x3F)
-#define LCD_ADDR 0x27 
+#define LCD_ADDR 0x27
 
 void lcd_init(void);
 void lcd_send_cmd(uint8_t cmd);
