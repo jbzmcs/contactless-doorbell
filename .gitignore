@@ -6,11 +6,25 @@
 # Intel HEX file for flashing 
 *.hex     
 
-# Common editor and IDE files
+# Ignore specific build files created in the root directory (redundant if *.o is used, but good for clarity)
+# These should be removed from your repository using 'git rm --cached'
+buzzer.o
+gpio.o
+i2c.o
+lcd.o
+main.elf
+main.hex
+main.o
+sensor.o
+usart.o
+
+# --- Common Editor and IDE Files ---
 .vscode/
 .settings/
 *.cproject
 *.project
+*.user
+*.bak
 
 # Operating System files
 # macOS
