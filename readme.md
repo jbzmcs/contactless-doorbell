@@ -1,4 +1,4 @@
-\# Milestone 2 Demonstration
+# Milestone 2 Demonstration
 
 
 
@@ -6,9 +6,9 @@ This is the video demonstration of our \*\*Bare Metal Contactless Doorbell Syste
 
 
 
-\*\*Watch the Demo Here:\*\*  
+**Watch the Demo Here:**  
 
-\[Click here to watch the video](https://www.youtube.com/watch?v=WO0hl_cwcgc)
+[Click here to watch the video](https://www.youtube.com/watch?v=WO0hl_cwcgc)
 
 
 
