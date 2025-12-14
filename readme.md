@@ -8,7 +8,7 @@ This is the video demonstration of our \*\*Bare Metal Contactless Doorbell Syste
 
 \*\*Watch the Demo Here:\*\*  
 
-\[Click here to watch the video](https://www.youtube.com/watch?v=WO0hl\_cwcgc)
+\[Click here to watch the video](https://www.youtube.com/watch?v=WO0hl_cwcgc)
 
 
 

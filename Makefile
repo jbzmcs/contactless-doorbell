@@ -1,6 +1,6 @@
 DEVICE     = atmega328p
 CLOCK      = 16000000
-PROGRAMMER = -c arduino -b 115200 -P COM13
+PROGRAMMER = -c arduino -b 115200 -P COM6 # ! IMPORTANT: Check for the COM always
 # --- UPDATED OBJECTS LIST ---
 OBJECTS    = main.o gpio.o sensor.o i2c.o lcd.o buzzer.o
 # ----------------------------
